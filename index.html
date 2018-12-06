@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body onload="fecthBookmarks()">
+    <div class="bg">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col- 12 m-auto ">
+                        <h2 class="text-center font-weight-bold mb-4 head">Website Bookmaker</h2>
+                        <form id="myForm">
+                            <div class="form-group">
+                                <label>Site Name</label>
+                                <input type="text" class="form-control" id="siteName" placeholder="Site name">
+                            </div>
+                            <div class="form-group">
+                                <label>Site url</label>
+                                <input type="text" class="form-control" id="siteUrl" placeholder="Site Name">
+                            </div>
+                            <button type="submit" class="btn p-2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="results">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <hr style="background:white">
+                    <footer class=" text-small text-center">
+                        Jaaiz Bookmaker &copy; 2019
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

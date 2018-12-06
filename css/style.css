@@ -1,0 +1,28 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url(../img/nebula.png);
+}
+.jumbotron{
+    margin: 40px auto;
+   background:linear-gradient(to right, rgba(20, 129, 180, 0.762), rgba(0, 160, 115, 0.68));
+}
+.cardCont{
+   display:inline-block;
+   font-weight:500;
+  font-size:14px;
+}
+.head{
+    font-size:40px;
+    color:#fff;
+}
+label{
+    font-weight:bold;
+    color:white;
+}
+
+button{
+    background: rgb(236, 241, 245);
+}
+footer{
+    color: #fff !important;
+}
